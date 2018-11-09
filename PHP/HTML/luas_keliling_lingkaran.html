@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>16.1.03.03.0022</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script>
+		function luas()
+		{
+			var r = document.getElementById('jari').value;
+			var luas = Math.PI * Math.pow(r,2);
+			return luas;
+		}
+		function keliling()
+		{
+			var r = document.getElementById('jari').value;
+			var keliling = 2*Math.PI*r;
+			return keliling;
+		}
+		function hitung()
+		{
+			var l = luas();
+			var k = keliling();
+			document.getElementById('luas').innerHTML = Math.round(l);
+			document.getElementById('keliling').innerHTML = Math.round(k);
+		}
+	</script>
+</head>
+<body>
+	
+	<h3>Luas dan Keliling Lingkaran</h3>
+	Jari - Jari <input type="text" name="jari" id="jari" value="10">
+	<br>
+	<br>Luas     : <span id="luas" class="alert alert-success"></span>
+	<br><br>
+	<br>Keliling : <span id="keliling" class="alert alert-success"></span>
+	<br><br>
+	<input type="button" name="btn" id="btn" value="Hitung" onclick="hitung()" class="btn-link">
+
+</body>
+</html>

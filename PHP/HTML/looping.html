@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>16.1.03.03.0022</title>
+	<script>
+		function loop_nama() 
+		{
+			var hasil = '';
+			var nama  = document.getElementById('nama').value;
+			var jml   = document.getElementById('jml').value;
+			for (var i = 1; i <= jml ; i++) {
+				hasil += '<br>' +i+ '&nbsp;' +nama+ ' ';
+			}
+			document.getElementById('hasil_looping').innerHTML=hasil;
+		}
+	</script>
+</head>
+<body>
+
+	Nama
+	<br><input type="text" name="nama" id="nama" value="">
+	<br>Looping Sebanyak
+	<br><input type="text" name="jml" id="jml" value="">
+
+	<div id="hasil_looping">Hasil Looping</div>
+
+	<br><br>
+	<input type="button" name="btn" id="btn" value="Looping" onclick="loop_nama()">
+
+	
+</body>
+</html>

@@ -1,0 +1,15 @@
+CREATE/INSERT
+
+INSERT INTO mobil (no_mobil, no_polisi, nama_mobil, warna_mobil, harga_sewa) VALUES ('M06','B 2381 KL','Mobilio','Hitam','350000');
+
+READ/SELECT
+
+SELECT nama_mobil FROM mobil;
+
+UPDATE
+
+UPDATE mobil SET no_polisi = 'B7645PKL' WHERE no_mobil = 'M06';
+
+DELETE
+
+DELETE FROM mobil WHERE no_mobil='M08';

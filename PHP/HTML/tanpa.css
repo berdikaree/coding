@@ -1,0 +1,49 @@
+body {
+	margin-left: 0;
+	margin-right: 0;
+}
+img {
+	border-radius: 50%;
+	width: 7%;
+	position: absolute;
+	left: 2.7%;
+	top: 3%;
+	border-image: 3%;
+	border-style: solid;
+}
+div {
+	font-family: Lucida Calligraphy;
+	font-weight: bold;
+	position: absolute;
+	left: 30%;
+	top: 4%;
+	font-size: 3em;
+}
+a button {
+	font-family: Lucida Calligraphy;
+	font-size: 1em;
+	font-weight: bold;
+	position: absolute;
+	height: 10%;
+	width: 10%;
+	left: 1.5%;
+	border-width: 0.5em;
+	border-style: groove;
+	border-color: #FF00CC;
+}
+iframe {
+	width: 1050px;
+	height: 400px;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+footer {
+	position: absolute;
+	font-size: 1.5em;
+	height: 5%;
+	bottom: 0%;
+	width: 100%;
+	text-align: center;
+	background-color: #D3D3D3;
+}

@@ -1,0 +1,12 @@
+body {text-align: center;}
+th, td {
+	padding: 8px;
+	text-align: center;
+	border: 1px solid blue;
+}
+tbody tr:hover{background-color:#75FBE7}
+tbody tr td a:hover{color:#FF0009 !important;}
+a {color: black; text-decoration: none;}
+button:hover{background-color: #75FBE7; color: red;}
+.menu {background-color: skyblue;}
+.left {text-align: left !important;}

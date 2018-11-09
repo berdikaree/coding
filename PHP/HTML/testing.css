@@ -1,0 +1,14 @@
+body {
+	font-family: "Source Serif Pro", sans-serif;
+	background: white;
+	word-wrap: break-word;
+	border-top: solid 5px #e0e0e0;
+}
+@media screen and (max-width: 600px) {
+  	h1.site-title {
+    	font-size: 26px;
+  }
+}
+h1.site-title a {
+  	color: #000;
+}

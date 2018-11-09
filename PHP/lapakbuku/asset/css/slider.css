@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.slide-container {
+width: 50%;
+position: relative;
+float: left;
+margin-left: 6%; 
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #ccc;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.2);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 50%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,8,0,0.8);
+}
+
+/* Caption text */
+.text {
+
+  color: #fff;
+  top: 50%;
+  font-size: 150%;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}

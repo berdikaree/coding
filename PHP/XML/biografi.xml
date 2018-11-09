@@ -1,0 +1,14 @@
+<curiculum_vitae>
+	<biodata>
+		<nama>Sony Dwi Kurniawan</nama>
+		<alamat>Jl. A. Yani Prambon Nganjuk</alamat>
+		<telp>085706535246</telp>
+		<kota>Nganjuk</kota>
+	</biodata>
+	<pendidikan>
+		<sd masuk="2004" lulus="2010">SDN Sonoageng 1</sd>
+		<smp masuk="2010" lulus="2013">SMPN 1 Prambon</smp>
+		<smu masuk="2013" lulus="2016">SMAN 1 Tanjunganom</smu>
+		<univ masuk="2016" lulus="-">UN PGRI Kediri</univ>
+	</pendidikan>
+</curiculum_vitae>

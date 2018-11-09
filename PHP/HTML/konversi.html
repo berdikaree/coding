@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>16.1.03.03.0022</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script>
+		function konversi() 
+		{
+			var huruf;
+			var angka = document.getElementById('angka'). value;
+			if (angka > 0 && angka < 40)
+				huruf = 'E';
+			else if (angka >= 40 && angka < 50)
+				huruf = 'D';
+			else if (angka >= 50 && angka < 60)
+				huruf = 'C';
+			else if (angka >= 60 && angka < 80)
+				huruf = 'B';
+			else if (angka >= 80 && angka <= 100)
+				huruf = 'A';
+			else
+				huruf = 'Out of Range';
+			document.getElementById('hasil_huruf').innerHTML = huruf;
+		}
+	</script>
+</head>
+<body>
+
+	<h3>Konversi Nilai</h3>
+	Nilai Angka <input type="text" name="angka" id="angka" value="" class="text-primary">
+	<br>
+	<br>Nilai Huruf : <span id="hasil_huruf" class="alert-info"></span>
+	<br><br>
+	<input class="btn btn-link" type="button" name="btn" id="btn" value="Konversi" onclick="konversi()">
+	
+</body>
+</html>

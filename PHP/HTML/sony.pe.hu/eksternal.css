@@ -1,0 +1,29 @@
+h1 {
+	color: #FF0000;
+}
+.h2 {
+	color: #1B8901;
+}
+font {
+	font-family: arial;
+	color: black;
+	font-size: 17px;
+}
+a {
+	text-decoration: none;
+}
+.bold {
+	font-weight: bold;
+}
+img {
+	width: 200px;
+	border-color: red;
+	border-image: 3%;
+	border-style: solid;
+}
+#id {
+	width: 15%;
+}
+.id {
+	width: 3%;
+}

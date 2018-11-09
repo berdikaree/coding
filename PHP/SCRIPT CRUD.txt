@@ -1,0 +1,14 @@
+SCRIPT CRUD
+
+--- CREATE ---
+INSERT INTO mobil(no_mobil, no_polisi, nama_mobil, warna_mobil, harga_sewa) VALUES ('M11','AG7384HGW','Luxio','Putih','430000')
+
+--- READ ---
+SELECT * FROM mobil ORDER BY no_mobil
+SELECT * FROM mobil ORDER BY no_polisi
+
+--- UPDATE ---
+UPDATE mobil SET no_mobil='M02',no_polisi='AG824KAL',nama_mobil='Avanza',warna_mobil='Silver',harga_sewa='250000' WHERE no_mobil='M02'
+
+--- DELETE ---
+DELETE FROM mobil WHERE no_mobil='M11'

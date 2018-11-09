@@ -1,0 +1,79 @@
+body {
+	margin: auto;
+}
+div.body {
+	border-width: 1px;
+	border-style: solid;
+}
+div.header {
+	width: 100%;
+	height: 150px;
+	font-family: Lucida Calligraphy;
+	font-size: 200%;
+}
+div div img {
+	border-radius: 50%;
+	position: absolute;
+	top: 4%;
+	left: 3%;
+	width: 10%;
+	border: solid 0.05em;
+}
+div div h1 {
+	text-align: center;
+	vertical-align: middle;
+}
+div.middle {
+	width: 100%;
+	height: 420px;
+	font-family: Lucida Calligraphy;
+	border: 1px solid;
+	border-bottom: 0;
+	border-right: 0;
+	border-left: 0;
+}
+div.left {
+	width: 20%;
+	height: 100%;
+	float: left;
+	border-right: solid 1px;
+}
+div div div a {
+	position: relative;
+	left: 10%;
+	top: 10%;
+}
+div div div a button {
+	height: 15%;
+	width: 70%;
+	font-size: 1.2em;
+	font-family: Lucida Calligraphy;
+	font-weight: bold;
+}
+button.a1 {
+	background-color: #F9F8A7;
+}
+button.a2 {
+	background-color: #83EDE4;
+}
+button.a3 {
+	background-color: #D2FF00;
+}
+div div div div {
+	font-size: 1.5em;
+	font-weight: bold;
+	position: relative;
+	left: 3%;
+}
+footer {
+	width: 100%;
+	height: 28px;
+	font-size: 1.3em;
+	background-color: #DEDCDC;
+	border-bottom: solid;
+	border-left: solid;
+	border-right: solid;
+	border-width: 1px;
+	text-align: center;
+	vertical-align: middle;
+}

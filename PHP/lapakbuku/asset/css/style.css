@@ -1,0 +1,18 @@
+@charset "utf-8";
+*{ margin:0; padding:0; font-family:Arial, Helvetica, sans-serif}
+.header-atas{width:100%; overflow:hidden; background:#4689db;  border-bottom: 3px;}
+.kiri{float: left; margin-left: 6%}
+.kiri ul{padding: 10px ; font-size: 10px; color: #fff; font-size: 14px }
+.kanan{float: right; margin-right: 6%}
+.kanan li{list-style: none;}
+.kanan ul li{display: inline;}
+.kanan ul li a{display: inline-block; padding: 10px; font-size: 15px; color: #fff;}
+.header-search{padding: 10px;}
+.header{ width:100%; overflow:hidden; background:#469;border-bottom: 3px;}
+.logo{ float:left; margin-left:6%; padding:5px;}
+a{ text-decoration:none}
+li{ list-style:none}
+nav { width:auto; margin-left:6%;}
+nav ul li{ display:inline}
+nav ul li a{ display:inline-block; padding:20px 15px; float:left; color:#fff; font-size:14px; transition:0.3s; text-transform:uppercase}
+nav ul li a:hover{ background:#4698db; }

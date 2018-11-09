@@ -1,0 +1,51 @@
+#y {
+		background-color: #4aa0dc;
+		vertical-align: bottom;
+		padding-left: 110px;
+		color: white;
+		height: 35px;
+		font-family: calibri;
+	}	
+#y1 {
+		padding-left: 110px;
+		margin-top: 30px;
+		height: 50px;
+		font-family: Arial;
+	}	
+#y2 {
+		padding-left: 110px;
+		margin-top: 30px;
+		height: 100px;
+		font-family: Arial;
+		font-size: 30px;
+		vertical-align: middle;
+		font-weight: bold;
+	}
+#m {
+		text-align: center;
+		background-color: #4aa0dc;
+		height: 35px;
+	}
+#menu {
+		background-color: black;
+		text-align: center;
+		color: white;
+		font-family: arial;
+		font-size: 14px;
+	}
+#menu2 {
+	vertical-align: top;
+	text-align: left;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 25px;
+}
+#menu3 {
+	font-size: 20px;
+	font-family: Calibri;
+	color: #666666;
+}
+#a1 {
+	text-decoration: none;
+	color: white;
+}

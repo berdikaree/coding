@@ -1,0 +1,143 @@
+#body {
+	border-spacing: 0;
+}
+body, html {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+#baris1 {
+	background-color: #4aa0dc;
+	color: white;
+	vertical-align: bottom;
+	font-family: arial;
+	font-size: 15px;
+	height: 36px;
+	text-align: justify;
+}
+#b1 {
+	width: 2.8%;
+}
+#b2 {
+	width: 20%;
+}
+#img {
+	width: 13px;
+	height: 11px;
+}
+#baris2 {
+	background-color: #ffffff;
+	height: 53px;
+	text-align: center;
+	vertical-align: bottom;
+}
+#a2 {
+	font-family: arial;
+	font-size: 31px;
+	font-weight: bold;
+	text-align: left;
+	width: 30%;
+}
+#baris3 {
+	background-color: #ffffff;
+	height: 50px;
+	text-align: center;
+	vertical-align: top;
+}
+#a3 {
+	font-family: arial;
+	font-size: 13px;
+	text-align: left;
+	color: #808080;
+	width: 30%;
+}
+#a4 {
+	width: 7%;
+	background-color: #4aa0dc;
+}
+#a5 {
+	width: 1%;
+	background-color: #000000;
+	color: #ffffff;
+}
+#a6 {
+	width: 1%;
+}
+#a7 {
+	width: 1%;
+}
+#a8 {
+	width: 1%;
+}
+#a9 {
+	width: 1%;
+}
+#a10 {
+	width: 7%;
+	background-color: #4aa0dc;
+}
+#baris4 {
+	background-color: #4aa0dc;
+	vertical-align: bottom;
+	font-family: arial;
+	font-size: 14px;
+	height: 40px;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#a1 {
+	color: #000000;
+	text-decoration: none;
+}
+#menu {
+	background-color: #000000;
+	text-align: center;
+	width: 1%;
+	vertical-align: middle;
+}
+#menu1 {
+	background-color: #000000;
+	text-align: left;
+	padding-left: 1%;
+	width: 9%;
+	vertical-align: middle;
+}
+#menu2 {
+	background-color: #000000;
+	width: 3%;
+}
+#menu3 {
+	background-color: #000000;
+	width: 7%;
+}
+#judul {
+	height: 100px;
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+}
+#image {
+	height: 350px;
+}
+#img1 {
+	height: 300px;
+	width: 100%;
+	vertical-align: middle;
+}
+#list {
+	vertical-align: top;
+	text-align: left;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 20px;
+}
+#list1 {
+	font-size: 20px;
+	font-family: Calibri;
+	color: #666666;
+}
